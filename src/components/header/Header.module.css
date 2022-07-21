@@ -1,0 +1,132 @@
+.Header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.Left {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+}
+
+.imgStar {
+	width: 18px;
+	height: 18px;
+}
+
+.Right {
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.MediumBlackHeaderP {
+	font-weight: 600;
+}
+
+.MediumBlackHeaderP div {
+	display: flex;
+	align-items: center;
+	column-gap: 5px;
+}
+
+.MediumGreyHeader {
+	font-weight: 200;
+	color: grey;
+}
+
+.One a {
+	display: flex;
+	column-gap: 20px;
+}
+
+.Two {
+	display: flex;
+	align-items: center;
+	/* background-color: blue; */
+	/* column-gap: 20px; */
+}
+
+.Three {
+	display: flex;
+	align-items: center;
+	/* background-color: aqua; */
+	/* column-gap: 20px; */
+}
+
+.imgD {
+	width: 100px;
+	height: 100px;
+}
+
+/* Bug with BTN : hover grey on the black */
+.Btn {
+	display: flex;
+	align-items: center;
+}
+
+.Btn button {
+	border-radius: 20px;
+	background-color: #d4d1cf;
+
+	border: none;
+	padding: 6px 12px;
+}
+
+.Btn button :hover {
+	color: black;
+}
+
+.a_GoInButton {
+	color: #70706f;
+}
+
+/* Bug with BTN : hover grey on the black */
+
+
+
+
+/*  */
+.HeaderTwo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 20vh;
+	border: 1px dashed blue;
+}
+
+.LeftTwoHeader {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+.LeftTwoHeader a {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.RightTwoHeader {
+	width: 19%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.RightTwoHeader button {
+	border: none;
+	border-radius: 20px;
+	padding: 10px 15px;
+	background-color: #ff870f;
+
+}
+
+.a_Basket {
+	color: white;
+}
