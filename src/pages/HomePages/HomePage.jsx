@@ -1,6 +1,7 @@
 import Slider from "react-slick"
 import SliderCard from "../../components/sliderCard/SliderCard";
 import SliderMap from "../../components/sliderCard/SliderMap";
+import './homePage.css'
 
 function HomePage() {
 
@@ -15,18 +16,23 @@ function HomePage() {
 
   return (
     <div className="GeneralWidth">
-      <Slider {...settings}>
-        <SliderMap />
-        {/* <SliderMap />
-        <SliderMap />
-        <SliderMap />
-        <SliderMap />
-        <SliderMap />
-        <SliderMap />
-        <SliderMap />
-        <SliderMap /> */}
+      <Slider  {...settings}>
+        <SliderMap/>
+        <SliderMap/>
+        <SliderMap/>
+        <SliderMap/>
+        <SliderMap/>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
+<div>1</div>
       </Slider>
-
     </div>
   )
 }

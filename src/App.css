@@ -3,3 +3,12 @@
   margin: 0 auto;
   border: 1px dashed pink;
 }
+.wrapperMap{
+	width: 200px;
+height: 260px;
+
+}
+.wrapperMap img{
+	width:auto;
+	height: 100%;
+}

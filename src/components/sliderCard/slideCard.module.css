@@ -1,10 +1,9 @@
 .wrapper{
 	width: 200px;
 height: 260px;
-margin: 0 auto;
+
 }
 .wrapper img{
-	margin:  0 auto;
-	/* height: 100%;
-	width:; */
+	width:auto;
+	height: 100%;
 }
