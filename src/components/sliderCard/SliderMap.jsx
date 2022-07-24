@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import SliderCard from "./SliderCard"
-import './Slider.css'
+import 
+
 
 
 function SliderMap() {
@@ -73,11 +74,11 @@ function SliderMap() {
 	 
 	let [arr , setArr] = useState([])
 
-	useEffect(()=>{
-		fetch('https://62d01fd51cc14f8c0884e2b6.mockapi.io/pizza')
-		.then((answer)=>{return answer.json()})
-		.then((Arrjson)=>{setArr(Arrjson)})
-	},[])
+	// useEffect(()=>{
+	// 	fetch('https://62d01fd51cc14f8c0884e2b6.mockapi.io/pizza')
+	// 	.then((answer)=>{return answer.json()})
+	// 	.then((Arrjson)=>{setArr(Arrjson)})
+	// },[])
 
   return (
 	
