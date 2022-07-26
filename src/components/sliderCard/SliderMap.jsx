@@ -63,7 +63,7 @@ function SliderMap() {
 	// 		{
 	// 			id:14,
 	// 			imageUrl: "14.jfif"
-	// 		},
+	// 		}, 
 	// 		{
 	// 			id:15,
 	// 			imageUrl: "15.jfif"
